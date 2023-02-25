@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template lang="pug">
 header
@@ -18,14 +17,14 @@ header
 router-view
 </template>
 
-<style lang="scss"  scoped>
+<style lang="scss" scoped>
 header {
   display: flex;
   align-items: center;
   justify-content: center;
 
   .title {
-    color: #01B468;
+    color: #01b468;
   }
 }
 </style>
