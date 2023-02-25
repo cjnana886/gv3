@@ -728,6 +728,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prettier/plugin-pug@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "@prettier/plugin-pug@npm:2.4.1"
+  dependencies:
+    pug-lexer: ^5.0.0
+  peerDependencies:
+    prettier: ^2.3.0
+  checksum: f5440b2cc14b544aa4140b94c5eaca3872fbb4733b2ac7f0b0a37b2434159554e1261c77e782077c7344977fafa2176a314e18756354c1a7d28c13507fe693bc
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.1.4":
   version: 1.2.0
   resolution: "@rushstack/eslint-patch@npm:1.2.0"
@@ -1421,6 +1432,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
+    "@prettier/plugin-pug": ^2.4.1
     "@rushstack/eslint-patch": ^1.1.4
     "@types/big.js": ^6
     "@types/jsdom": ^20.0.1
@@ -4671,7 +4683,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pug-lexer@npm:^5.0.1":
+"pug-lexer@npm:^5.0.0, pug-lexer@npm:^5.0.1":
   version: 5.0.1
   resolution: "pug-lexer@npm:5.0.1"
   dependencies:

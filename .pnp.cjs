@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@prettier/plugin-pug", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:2.4.1"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@types/big.js", "npm:6.1.6"],\
             ["@types/jsdom", "npm:20.0.1"],\
@@ -1004,6 +1005,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@prettier/plugin-pug", [\
+        ["npm:2.4.1", {\
+          "packageLocation": "./.yarn/cache/@prettier-plugin-pug-npm-2.4.1-0228ea5fdb-f5440b2cc1.zip/node_modules/@prettier/plugin-pug/",\
+          "packageDependencies": [\
+            ["@prettier/plugin-pug", "npm:2.4.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:2.4.1", {\
+          "packageLocation": "./.yarn/__virtual__/@prettier-plugin-pug-virtual-913cdd6f5d/0/cache/@prettier-plugin-pug-npm-2.4.1-0228ea5fdb-f5440b2cc1.zip/node_modules/@prettier/plugin-pug/",\
+          "packageDependencies": [\
+            ["@prettier/plugin-pug", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:2.4.1"],\
+            ["@types/prettier", null],\
+            ["prettier", "npm:2.8.4"],\
+            ["pug-lexer", "npm:5.0.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/prettier",\
+            "prettier"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@rushstack/eslint-patch", [\
         ["npm:1.2.0", {\
           "packageLocation": "./.yarn/cache/@rushstack-eslint-patch-npm-1.2.0-917f402e4e-faa749faae.zip/node_modules/@rushstack/eslint-patch/",\
@@ -1962,6 +1986,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["app", "workspace:."],\
+            ["@prettier/plugin-pug", "virtual:0460f86c7587ee75dac643681550c044e8047ba46e219a5baac054fc0fea2d0af97a9bd3fe4b22de0884797215e0a1a4368bb60f9ef7087a69c4008789f4e032#npm:2.4.1"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@types/big.js", "npm:6.1.6"],\
             ["@types/jsdom", "npm:20.0.1"],\
