@@ -1253,7 +1253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^9.1.0":
+"@vueuse/core@npm:^9.1.0, @vueuse/core@npm:^9.13.0":
   version: 9.13.0
   resolution: "@vueuse/core@npm:9.13.0"
   dependencies:
@@ -1442,11 +1442,14 @@ __metadata:
     "@vitejs/plugin-vue-jsx": ^3.0.0
     "@vue/eslint-config-prettier": ^7.0.0
     "@vue/eslint-config-typescript": ^11.0.0
+    "@vue/reactivity": ^3.2.47
+    "@vue/shared": ^3.2.47
     "@vue/test-utils": ^2.2.6
     "@vue/tsconfig": ^0.1.3
+    "@vueuse/core": ^9.13.0
     big.js: ^6.2.1
     dayjs: ^1.11.7
-    element-plus: ^2.2.32
+    element-plus: ^2.2.17
     eslint: ^8.22.0
     eslint-plugin-vue: ^9.3.0
     jsdom: ^20.0.3
@@ -2162,7 +2165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"element-plus@npm:^2.2.32":
+"element-plus@npm:^2.2.17":
   version: 2.2.32
   resolution: "element-plus@npm:2.2.32"
   dependencies:
