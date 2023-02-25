@@ -12,6 +12,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "big.js": "^6.2.1",
+    "dayjs": "^1.11.7",
+    "element-plus": "^2.2.32",
+    "lodash-es": "^4.17.21",
     "pug": "^3.0.2",
     "sass": "^1.58.3",
     "vue": "^3.2.45",
@@ -19,7 +23,9 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
+    "@types/big.js": "^6",
     "@types/jsdom": "^20.0.1",
+    "@types/lodash-es": "^4",
     "@types/node": "^18.11.12",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
