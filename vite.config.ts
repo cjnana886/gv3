@@ -10,6 +10,15 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
+      lodash: 'lodash-es',
+    },
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        charset: false,
+        additionalData: '@use "@/assets/scss/_prepend.scss" as *;',
+      },
     },
   },
 });

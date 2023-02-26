@@ -1,0 +1,24 @@
+@use '../../style/scss/color-cust' as Color;
+
+@forward 'element-plus/theme-chalk/src/common/var' with (
+  $main: (
+    'padding': 0,
+  ),
+  $header: (
+    'padding': 0,
+    'height': 56px,
+  ),
+  $common-component-size: (
+    'large': 34px,
+    'default': 30px,
+    'small': 24px,
+  ),
+  $colors: Color.$colors
+);
+
+// @forward 'element-plus/theme-chalk/src/form' with (
+//   $form-item-line-height: Form.$form-item-line-height,
+//   $form-item-error-padding-top: Form.$form-item-error-padding-top
+// );
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
