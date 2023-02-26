@@ -15,6 +15,12 @@ const router = createRouter({
       name: 'Welcome ghost venue',
       component: () => import('../views/home/ghost-venue.vue'),
     },
+    // 股市分析
+    {
+      path: '/stock',
+      name: '股市分析',
+      component: () => import('../views/stock/index.vue'),
+    },
   ],
 });
 
